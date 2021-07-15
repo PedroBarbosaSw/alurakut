@@ -1,1 +1,1 @@
-![Alt text](/alurakut/blob/main/img/logo.svg "Alurakut logo")
+![Alt text](https://github.com/PedroBarbosaSw/alurakut/blob/main/img/logo.svg "Alurakut logo")
