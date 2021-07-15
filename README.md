@@ -1,1 +1,1 @@
-![Alt text](/PedroBarbosaSw/alurakut/blob/main/img/logo.svg "Alurakut logo")
+![Alt text](/blob/main/img/logo.svg "Alurakut logo")
