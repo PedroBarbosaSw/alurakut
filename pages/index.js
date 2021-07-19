@@ -28,6 +28,7 @@ export default function Home() {
       title: 'Eu odeio acordar cedo',
       image: 'https://alurakut.vercel.app/capa-comunidade-01.jpg'
    }]);
+   
    const githubUser = 'PedroBarbosaSw';
    const pessoasFavoritas = [
       'juunegreiros', 
@@ -40,7 +41,7 @@ export default function Home() {
 
    return (
       <>
-         <AlurakutMenu githubUser={githubUser}/>
+         <AlurakutMenu />
          <MainGrid>
             <div className="profileArea" style={{ gridArea: 'profileArea' }}>
                <ProfileSidebar githubUser={githubUser}/>
@@ -92,6 +93,9 @@ export default function Home() {
             </div >
             <div className="profileRelationsArea" style={{ gridArea: 'profileRelationsArea' }}>
                <ProfileRelationsBoxWrapper>
+                  <h2 className="smallTitle">
+                     Comunidades ({comunidades.length})
+                  </h2>
                   <ul>
                      {
                         comunidades.map((itemAtual) => {
